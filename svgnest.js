@@ -26,14 +26,14 @@
 		var binBounds = null;
 		var nfpCache = {};
 		var config = {
-			clipperScale: 10000000,
-			curveTolerance: 0.3, 
-			spacing: 0,
+			clipperScale: 10000,
+			curveTolerance: 0.1,
+			spacing: 5,
 			rotations: 4,
 			populationSize: 10,
 			mutationRate: 10,
 			useHoles: false,
-			exploreConcave: false
+			exploreConcave: true
 		};
 		
 		this.working = false;
